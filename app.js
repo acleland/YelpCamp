@@ -5,6 +5,9 @@ const ejsMate = require('ejs-mate');
 const methodOverride = require('method-override');
 const Campground = require('./models/campground');
 
+const inTheWoodsCollectionID = 483251;
+const unsplashURL = 'https://source.unsplash.com/collection/483251';
+
 mongoose.connect('mongodb://localhost:27017/yelp-camp', {
     useNewUrlParser: true,
     useUnifiedTopology: true
