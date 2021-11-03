@@ -3,6 +3,8 @@ const Campground = require('../models/campground');
 const cities = require('./cities');
 const {places, descriptors} = require('./seedHelpers');
 
+const inTheWoodsCollectionID = 483251;
+const unsplashURL = 'https://source.unsplash.com/collection/483251';
 
 mongoose.connect('mongodb://localhost:27017/yelp-camp', {
     useNewUrlParser: true,
